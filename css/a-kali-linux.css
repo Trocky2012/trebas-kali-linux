@@ -37,7 +37,8 @@
     text-align: left;
     display: inline-block;
     font-size: 12px;
-    margin-top: -20px;
+    margin: 5px;
+    margin-top: -10px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
