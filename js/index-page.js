@@ -18,7 +18,7 @@ function mountList(commands, functions, input, output, obs){
 }
 
 function home(){
-    document.getElementById("title").innerHTML = "Introduction to new Trebas Institute technologies"; 
+    document.getElementById("title").innerHTML = "Home - Introduction to new Trebas Institute technologies"; 
     document.getElementById("text1").innerHTML = "<br>This webpage contains some infomrations about <b>Trebas Institute's projects.</b> <br><br>"
     +"The projects were created by students and bring some important features for who has interesting in technology <br><br>"
     +"- <a href='https://www.trebas.com/'>Trebas Institute website</a><br><br>"
