@@ -17,8 +17,8 @@ function mountList(commands, functions, input, output, obs){
 
 }
 
-function home(){
-    document.getElementById("title").innerHTML = "Home - Introduction to new Trebas Institute technologies"; 
+function introduction(){
+    document.getElementById("title").innerHTML = "Introduction"; 
     document.getElementById("text1").innerHTML = "<br>This webpage contains some infomrations about <b>Trebas Institute's projects.</b> <br><br>"
     +"The projects were created by students and bring some important features for who has interesting in technology <br><br>"
     +"- <a href='https://www.trebas.com/'>Trebas Institute website</a><br><br>"
@@ -35,17 +35,29 @@ function home(){
         </tr>`;
     document.getElementById("messages").innerHTML = li;
 }
-function kali_linux(){
-    document.getElementById("title").innerHTML = "Kali Linux installation"; 
+function projects(){
+    document.getElementById("title").innerHTML = "Projects"; 
     document.getElementById("text1").innerHTML = 
-    "By default, when you log into your Linux system, your current working directory is set to your home directory.<br><br>"
-    +"To change the working directory use the <b>cd</b> command.<br><br>"
-    +"Type the folder the you want to open after cd.<br><br>";
+    "Sorry, we are still building this page.<br><br>"
+    +"Have a look at the top navegation bar for more subjects.<br><br>"
     mountList(  
-        "cd -option",
-        "Change working directory",
-        "cd Documents",
-        "<img src='img/a-kali-linux/cd.jpg' alt='cd'>",
-        "",
+        "List of projects",
+        "Building",
+        "Trebas Institute",
+        "<img src='https://www.trebas.com/assets/svg/header-logo.svg' alt='trebas'>",
+        "<a href='https://www.trebas.com/'>Trebas Institute website</a>",
+    );
+}
+function developedby(){
+    document.getElementById("title").innerHTML = "Developed By"; 
+    document.getElementById("text1").innerHTML = 
+    "Thiago Trolle Cavalheiro<br><br>"
+    +"Student of Cyber Security / CSA-03 <br><br>"
+    mountList(  
+        "Thiago",
+        "Trolle",
+        "Cavalheiro",
+        "<img src='https://www.trebas.com/assets/svg/header-logo.svg' alt='trebas'>",
+        "Trebas Institute",
     );
 }
