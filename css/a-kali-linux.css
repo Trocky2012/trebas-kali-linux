@@ -1,3 +1,18 @@
+/* Side nav bar*/
+.barButton {
+    white-space:normal;
+    width: 95%;
+    background-color: #0faf72;
+    border-radius: 12px;
+    border-color: #0faf72;
+    color: white;
+    padding: 2px 6px;
+    text-align: left;
+    display: inline-block;
+    font-size: 12px;
+    margin: 3px;
+    margin-top: 5px;
+}
 /* Top nav bar*/
 .topnav {
     overflow: hidden;
@@ -26,20 +41,3 @@
     margin-right: auto;
     margin-top: 10px;
 }
-.barButton {
-    white-space:normal;
-    width: 95%;
-    background-color: #0faf72;
-    border-radius: 12px;
-    border-color: #0faf72;
-    color: white;
-    padding: 2px 6px;
-    text-align: left;
-    display: inline-block;
-    font-size: 12px;
-    margin: 7px;
-    margin-top: 5px;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-}    
