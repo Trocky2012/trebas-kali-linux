@@ -28,7 +28,7 @@
 }
 .barButton {
     white-space:normal;
-    width: 90%;
+    width: 95%;
     background-color: #0faf72;
     border-radius: 12px;
     border-color: #0faf72;
@@ -37,8 +37,8 @@
     text-align: left;
     display: inline-block;
     font-size: 12px;
-    margin: 5px;
-    margin-top: -10px;
+    margin: 7px;
+    margin-top: 0px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
