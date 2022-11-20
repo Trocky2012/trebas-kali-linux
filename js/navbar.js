@@ -1,4 +1,5 @@
-var path = window.location.pathname.split('/').pop();
+//var path = window.location.pathname.split('/').pop();
+var path = window.location.pathname
 
 if(path == "index.html"){
 
