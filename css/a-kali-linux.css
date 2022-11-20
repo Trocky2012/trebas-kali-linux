@@ -38,7 +38,7 @@
     display: inline-block;
     font-size: 12px;
     margin: 7px;
-    margin-top: 0px;
+    margin-top: 5px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
