@@ -50,7 +50,8 @@ function vmware(){
     +"and RAM. <br><br>"
     +"&nbsp &nbsp VMware has developed support to its hypervisor to run containerized workloads in a Kubernetes cluster " 
     +"in a similar way. These types of workloads can be managed by the infrastructure team in the same way as "
-    +"virtual machines and the DevOps teams can deploy containers as they were used to. <br><br>";
+    +"virtual machines and the DevOps teams can deploy containers as they were used to. <br><br>"
+    +"- <a href='https://www.vmware.com/ca/products/workstation-player/workstation-player-evaluation.html'>VMware download link</a><br><br>";
 
     mountList(  
         "pwd",
@@ -65,7 +66,8 @@ function kali_linux(){
     document.getElementById("text1").innerHTML = 
     "By default, when you log into your Linux system, your current working directory is set to your home directory.<br><br>"
     +"To change the working directory use the <b>cd</b> command.<br><br>"
-    +"Type the folder the you want to open after cd.<br><br>";
+    +"Type the folder the you want to open after cd.<br><br>"
+    +"- <a href='https://www.kali.org/'>Kali Linux download link</a><br><br>";
     mountList(  
         "cd -option",
         "Change working directory",
