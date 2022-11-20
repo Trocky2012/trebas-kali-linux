@@ -19,9 +19,10 @@ function mountList(commands, functions, input, output, obs){
 
 function introduction(){
     document.getElementById("title").innerHTML = "Introduction"; 
-    document.getElementById("text1").innerHTML = "<br>This webpage contains some infomrations about <b>Trebas Institute's projects.</b> <br><br>"
-    +"The projects were created by students and bring some important features for who has interesting in technology <br><br>"
-    +"- <a href='https://www.trebas.com/'>Trebas Institute website</a><br><br>"
+    document.getElementById("text1").innerHTML = "<br>This webpage contains some informations about <b>Trebas Institute's projects.</b> <br><br>"
+    +"The projects were created by students and bring some important features for who has interesting in technology, cyber security, big data and others. <br><br>"
+    +"Access Trebas` website for more informations and be part of this amazing community.<br><br>"
+    +"- <a href='https://www.trebas.com/'>https://www.trebas.com/</a><br><br>"
 
     let li = `<tr>
         <th align="left";>Trebas Institute</th>
@@ -29,9 +30,6 @@ function introduction(){
         </tr>`;
     li += `<tr>
             <td><img src='https://www.trebas.com/assets/svg/header-logo.svg' alt='Code' style='width:100%' class='center'></td>
-        </tr>`;
-    li += `<tr>
-            <td>Trebas-logo</td>
         </tr>`;
     document.getElementById("messages").innerHTML = li;
 }
@@ -45,7 +43,7 @@ function projects(){
         "Building",
         "Trebas Institute",
         "<img src='https://www.trebas.com/assets/svg/header-logo.svg' alt='trebas'>",
-        "<a href='https://www.trebas.com/'>Trebas Institute website</a>",
+        "<a href='https://www.trebas.com/'>Trebas Institute`s website</a>",
     );
 }
 function developedby(){
