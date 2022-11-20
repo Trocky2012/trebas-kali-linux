@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Kali Linux</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="css/a-kali-linux.css">
+    </head>
+
+    <body onload=home()>
+
+        <script src="js/navbar.js"></script>
+        
+        <!-- Sidebar -->
+        <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+            <img src="https://linuxtalk.de/wp-content/uploads/2020/01/Kali-Linux-Logo.png" 
+                alt="Kali" style="width:90%" class="center">
+            <h3 class="w3-bar-item">Commands:</h3>
+            <p> Basic:</p>
+            <p><button class="barButton" onclick=home()>> Home - Kali Linux</button></p>
+            <p><button class="barButton" onclick=pwd()>> pwd</button></p>
+            <p><button class="barButton" onclick=cd()>> cd</button></p>
+            <p><button class="barButton" onclick=ls()>> ls</button></p>
+            <p><button class="barButton" onclick=mkdir()>> mkdir</button></p>
+            <p><button class="barButton" onclick=rmdir()>> rmdir</button></p>
+            <p><button class="barButton" onclick=cp()>> cp</button></p>
+            <p><button class="barButton" onclick=rm()>> rm</button></p>
+            <p><button class="barButton" onclick=mv()>> mv</button></p>
+            <p><button class="barButton" onclick=locate()>> locate</button></p>
+            <p><button class="barButton" onclick=updatedb()>> updatedb</button></p>
+            <p><button class="barButton" onclick=passwd()>> passwd</button></p>
+            <p><button class="barButton" onclick=man()>> man</button></p>
+            <p> Users and permissions:</p>
+            <p><button class="barButton" onclick=chmod()>> chmod</button></p>
+            <p><button class="barButton" onclick=adduser()>> adduser</button></p>
+            <p><button class="barButton" onclick=etc_passwd()>> /etc/passwd</button></p>
+            <p><button class="barButton" onclick=etc_shadow()>> /etc/shadow</button></p>
+            <p><button class="barButton" onclick=su()>> su</button></p>
+            <p><button class="barButton" onclick=sudo()>> sudo</button></p>
+            <p> Network configuration:</p>
+            <p><button class="barButton" onclick=ifconfig()>> ifconfig</button></p>
+            <p><button class="barButton" onclick=iwconfig()>> iwconfig</button></p>
+            <p><button class="barButton" onclick=ping()>> ping</button></p>
+            <p><button class="barButton" onclick=arp()>> arp</button></p>
+            <p><button class="barButton" onclick=netstat()>> netstat</button></p>
+            <p><button class="barButton" onclick=route()>> route</button></p>
+            <br><br><br><br>
+        </div>
+
+
+        <!-- Page -->
+        <div style="margin-left:25%">
+
+            <div class="w3-container w3-teal" >
+                <h1>Kali Linux by Thiago Trolle Cavalheiro</h1>
+            </div>
+            
+            <div class="w3-container">
+                <h2 style=" font-size: xx-large; font-family: Impact; color: #0faf72;" id="title">Home</h2>
+                <p id="text1">This is the home page</p>
+                <table id="messages" style="width: 85%"></table>
+            </div>
+
+        </div>
+
+        <script src="js/a-kali-linux.js"></script>
+
+    </body>
+</html>
