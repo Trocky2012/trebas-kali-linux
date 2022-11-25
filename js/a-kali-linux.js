@@ -19,7 +19,7 @@ function mountList(commands, functions, input, output, obs){
 
 function home(){
     document.getElementById("title").innerHTML = "Home - Kali Linux"; 
-    document.getElementById("text1").innerHTML = "<br> &nbsp &nbsp  <b>Kali Linux</b> (formerly known as BackTrack Linux) is an open-source, Debian-based Linux "
+    document.getElementById("text1").innerHTML = "&nbsp &nbsp  <b>Kali Linux</b> (formerly known as BackTrack Linux) is an open-source, Debian-based Linux "
     +"distribution aimed at advanced Penetration Testing and Security Auditing. It works by providing "
     +"common tools, configurations, and automations which allows the user to focus on the task that "
     +"needs to be completed, not the surrounding activity. <br><br> &nbsp &nbsp Kali Linux contains industry specific "

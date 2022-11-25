@@ -19,7 +19,7 @@ function mountList(commands, functions, input, output, obs){
 
 function home(){
     document.getElementById("title").innerHTML = "General information about Kali Linux installation"; 
-    document.getElementById("text1").innerHTML = "<br> &nbsp &nbsp This is the tutorial for <b>Kali Linux Installation.</b> <br><br>"
+    document.getElementById("text1").innerHTML = "&nbsp &nbsp This is the tutorial for <b>Kali Linux Installation.</b> <br><br>"
     +"&nbsp &nbsp First, download the VMware, a software which runs virtual machines. Click at the link below and select the download option that suits for you. <br><br>"
     +"- <a href='https://www.vmware.com/ca/products/workstation-player/workstation-player-evaluation.html'>VMware download link</a><br><br>"
     +"&nbsp &nbsp Once the VMware is installed, open this link and download the Kali Linux. This may take several minutes to be done. <br><br>"
