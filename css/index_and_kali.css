@@ -40,6 +40,8 @@
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
+    border-radius: 12px;
+    border-color: #0faf72;
 }
 
 .center {
