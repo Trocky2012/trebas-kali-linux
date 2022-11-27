@@ -57,9 +57,9 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-topnav a {  float: left; color: #f2f2f2; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px;}
 .w3-topnav a:hover {  background-color: #ddd; color: black;}
 .w3-topnav a.active {   background-color: #04AA6D;color: white;}
-.w3-container,.w3-panel{top:40;}.w3-panel{margin-bottom:16px}
-.w3-teal,.w3-hover-teal:hover{top:40; position:fixed;width: 100%;color:#fff!important;background-color:#009688!important}
-.w3-sidebar{top:40; height:100%;width:200px;background-color:#fff;position:fixed;z-index:2;overflow:auto}
+.w3-container,.w3-panel{top:45;}.w3-panel{margin-bottom:16px}
+.w3-teal,.w3-hover-teal:hover{top:45; position:fixed;width: 100%;color:#fff!important;background-color:#009688!important}
+.w3-sidebar{top:45; height:100%;width:200px;background-color:#fff;position:fixed;z-index:2;overflow:auto}
 .w3-bar-block .w3-dropdown-hover,.w3-bar-block .w3-dropdown-click{width:100%}
 .w3-bar-block .w3-dropdown-hover .w3-dropdown-content,.w3-bar-block .w3-dropdown-click .w3-dropdown-content{min-width:100%}
 .w3-bar-block .w3-dropdown-hover .w3-button,.w3-bar-block .w3-dropdown-click .w3-button{width:100%;text-align:left;padding:8px 16px}
