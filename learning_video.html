@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Kali Linux</title>
+        <link rel="stylesheet" href="css/general-style.css">
+        <link rel="stylesheet" href="css/w3school.css">
+    </head>
+
+    <body onload=pwd()>
+
+        <!--<script src="js/navbar.js"></script>-->
+        <div class="topnav">
+            <a href="home.html">Kali linux</a>
+            <a href="installation.html">Kali linux Installation</a>
+            <a href="installation_video.html">Installation video</a>
+            <a class="active" href="learning_video.html">Learning Kali video</a>
+            <a href="index.html">Cover page</a>
+        </div>
+        
+        <!-- Sidebar -->
+        <div class="w3-sidebar w3-bar-block" style="width:25%">
+            <img src="https://linuxtalk.de/wp-content/uploads/2020/01/Kali-Linux-Logo.png" 
+                alt="Kali" style="width:80%;" class="center sideImage">
+            <p> &nbsp Basic commands:</p>
+            <p><button class="barButton" onclick=pwd()>> pwd</button></p>
+            <p><button class="barButton" onclick=cd()>> cd</button></p>
+            <p><button class="barButton" onclick=ls()>> ls</button></p>
+            <p><button class="barButton" onclick=mkdir()>> mkdir</button></p>
+            <p><button class="barButton" onclick=rmdir()>> rmdir</button></p>
+            <p><button class="barButton" onclick=cp()>> cp</button></p>
+            <p><button class="barButton" onclick=rm()>> rm</button></p>
+            <p><button class="barButton" onclick=mv()>> mv</button></p>
+            <p><button class="barButton" onclick=locate()>> locate</button></p>
+            <p><button class="barButton" onclick=updatedb()>> updatedb</button></p>
+            <p><button class="barButton" onclick=passwd()>> passwd</button></p>
+            <p><button class="barButton" onclick=man()>> man</button></p>
+            <p> &nbsp Users and permissions:</p>
+            <p><button class="barButton" onclick=chmod()>> chmod</button></p>
+            <p><button class="barButton" onclick=adduser()>> adduser</button></p>
+            <p><button class="barButton" onclick=etc_passwd()>> /etc/passwd</button></p>
+            <p><button class="barButton" onclick=etc_shadow()>> /etc/shadow</button></p>
+            <p><button class="barButton" onclick=su()>> su</button></p>
+            <p><button class="barButton" onclick=sudo()>> sudo</button></p>
+            <p> &nbsp Network configuration:</p>
+            <p><button class="barButton" onclick=ifconfig()>> ifconfig</button></p>
+            <p><button class="barButton" onclick=iwconfig()>> iwconfig</button></p>
+            <p><button class="barButton" onclick=ping()>> ping</button></p>
+            <p><button class="barButton" onclick=arp()>> arp</button></p>
+            <p><button class="barButton" onclick=netstat()>> netstat</button></p>
+            <p><button class="barButton" onclick=route()>> route</button></p>
+            <br><br><br><br>
+        </div>
+
+
+        <!-- Page -->
+        <div style="margin-left:25%">
+
+            <div class="w3-teal" >
+                <h1>Kali Linux Learning</h1>
+            </div>
+            
+            <div class="w3-container">
+                <iframe style="margin-top: 150px;" width="50%" height="30%" src="https://www.youtube.com/embed/lZAoFs75_cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br><br>
+                <p style="font-size: 11px;"><< select commands on the side bar to follow the video...</p>
+                <h2 style="font-size: xx-large; font-family: Impact; color: rgb(63, 73, 80);;" id="title">Home</h2>
+                <p id="text1">Loading...</p>
+                <table id="messages" style="width: 95%"></table>
+            </div>
+
+        </div>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
